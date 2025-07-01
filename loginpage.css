@@ -1,0 +1,9 @@
+.body {font-family: 'Times New Roman', Times, serif ; background-image:linear-gradient(to right,rgb(14, 8, 77),rgb(14, 8, 77), rgb(121, 11, 11), rgb(196, 196, 12)); }
+
+.container {  background-image:linear-gradient(to right,rgb(14, 8, 77),rgb(14, 8, 77), rgb(121, 11, 11), rgb(196, 196, 12));}
+.logo { height: 90%; width: 40%;}
+.Navigation_Text {color:rgb(255, 255, 255)}
+
+.Background { width: 100%; height: 100% ; background-image:linear-gradient(to right,rgb(14, 8, 77),rgb(14, 8, 77), rgb(121, 11, 11), rgb(196, 196, 12));}        
+.Logo_Part {text-align:center}
+hr.solid {border-top: 5px solid rgb(255, 255, 255); width: 260px; margin:auto}

@@ -1,0 +1,17 @@
+.body {font-family: 'Times New Roman', Times, serif ;background-image:linear-gradient(to right,rgb(14, 8, 77),rgb(14, 8, 77), rgb(121, 11, 11), rgb(196, 196, 12))}
+
+.container {  background-image:linear-gradient(to right,rgb(14, 8, 77),rgb(14, 8, 77), rgb(121, 11, 11), rgb(196, 196, 12));}
+.logo { height: 70px; width: 70%;}
+.Navigation_Text {color:rgb(255, 255, 255)}
+
+.middle {height: 1000px; background-color: rgb(255, 255, 255); font-family: 'Times New Roman', Times, serif;}
+.Product_Description { float:left; margin-left: 2%; margin-top: 2%; font-size:x-large; width: 30%; font-weight: bold}
+hr.solid_Horizontal {border-top: 3px solid rgb(69, 67, 67); width: 340px;}
+.Description {font-size: small; font-weight:normal;}
+.Quantity_box {width: 10%; height: 10%; font-weight:normal ;padding: 14px 10px; font-size: 12px; height: 56px;}
+.Cart_button {background-image:linear-gradient(to right,rgb(14, 8, 77),rgb(14, 8, 77), rgb(121, 11, 11), rgb(196, 196, 12))}
+.Button_text {color: white;}
+.Sidebar { float: left; margin-left:400px;}
+hr.solid_Vertical {border-left: 3px solid rgb(69, 67, 67); height: 460px; margin-top: 2%; float: left; margin-left:2%}
+.Sidebar {float: left; margin-top: 2%;margin-left: 2%; font-family: 'Times New Roman', Times, serif;}
+.related_products {width:80% ;height:43% ;margin-top: 30%; margin-left: 10%; margin-right: 10%; font-family: 'Times New Roman', Times, serif; font-weight:bold; font-size:large;}

@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="loginpage.css">
+    <script src="https://kit.fontawesome.com/910d997c5f.js" crossorigin="anonymous"></script>
+  </head>
+<body class="body">
+  <!--header-->
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container">
+        <!--logo Part-->
+        <a class="navbar-brand" href="home.html"><img class="logo" src="Images/Logo.png"></img></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--logo Part-->
+
+        <!--header details-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html"><p class="Navigation_Text">Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="home.html"><p class="Navigation_Text">About Us</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Reviews.html"><p class="Navigation_Text">Reviews</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cart.html"><p class="Navigation_Text">Cart</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Product.html"><p class="Navigation_Text">Products</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="loginpage.html"><p class="Navigation_Text">Login</p></a>
+            </li>
+          </ul>
+        </div>
+        <!--header details-->
+      </div>
+    </nav>
+  </div>  
+  <!--header-->
+
+  <div class="Background">
+    <div class="Logo_Part">
+      <img src="Images/Logo.png" alt="Logo" style="width:200px; height: 100px; margin-top: 50px;">
+        <br><br><br>
+      <!--Facebook Button-->
+      <a href="https://www.facebook.com/">
+        <button type="button" class="btn btn-primary" style="width:260px; height: 40px">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" >
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg> LOGIN WITH FACEBOOK
+        </button>
+      </a>
+      <!--Facebook Button-->
+      <br>
+
+      <!--Apple Button-->
+      <a href="https://appleid.apple.com/sign-in">
+        <button type="button" class="btn btn-dark" style="width:260px; height: 40px; margin-top:10px">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+            <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+          </svg> LOGIN WITH APPLE 
+        </button>
+      </a>
+      <!--Apple Button-->
+      <br>
+      <!--Google Button-->
+      <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1643860219%3A1669672945556485&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAv8KcUEZTsdXwUc21uhpxBlqKELnWt_kPmaw_Q8hcaPy9nFG9jW2lBuPMfO6Oeu9gk47VFq0Q">
+        <button type="button" class="btn btn-light" style="width:260px; height: 40px; margin-top:10px">        
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+          </svg>  LOGIN WITH GOOGLE
+        </button>
+      </a>
+      <!--Google Button-->
+      <br><br>
+      <!--forms details-->
+      <hr class="solid"><br>
+        <p style="color:rgb(238, 234, 234)"> OR </p>
+        <hr class="solid"><br>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" style="color:white">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@email.com" style="width:260px; margin:auto ">
+              <div id="emailHelp" class="form-text" style="color:white">We'll never share your email with anyone else.</div>
+            </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label" style="color:white;">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password" style="width:260px; margin:auto">
+          </div>
+          <div class="mb-3 form-check">  
+            <label class="form-check-label" for="exampleCheck1" style="margin:auto; color:white;">REMEMBER ME</label>
+          </div>
+          <a href="home.html">  
+            <button type="button" class="btn btn-primary">LOG IN</button>
+              </a><br><br>
+        </form>
+        <hr class="solid">
+          <p style="color:rgb(238, 234, 234)"> Don't have an account? </p>
+          <a href="signuppage.html">
+            <button type="button" class="btn btn-light" style="width:260px; height: 40px; margin:auto">SIGN UP</button>
+          </a>
+        <br><br><br>
+      <!--forms details-->  
+    </div>
+                    
+  </div>  
+        
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white" style="background-image:linear-gradient(to right,rgb(14, 8, 77),rgb(14, 8, 77), rgb(121, 11, 11), rgb(196, 196, 12))" >
+    <!-- Grid container -->
+    <div class="container p-4">     
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="https://www.facebook.com/" role="button">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- Facebook -->  
+          <!-- Twitter -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="https://twitter.com/" role="button" >
+            <i class="fab fa-twitter"></i >
+          </a>
+          <!-- Twitter -->
+          <!-- Google -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="https://accounts.google.com/v3/signin/identifier?dsh=S201907375%3A1670161453838374&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAtCEHCQ8d3UU2oLL9mZ51itrkUQJjb2Y07VqLWATJmfEYTkE3zuId8zJ7t3ijCKlQcEMhc-pw" role="button" >
+            <i class="fab fa-google"></i>
+          </a>
+          <!-- Google -->
+          <!-- Instagram -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="https://www.instagram.com/" role="button" >
+            <i class="fab fa-instagram"></i >
+          </a>
+          <!-- Instagram -->
+          <!-- Linkedin -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"  href="https://www.linkedin.com/login" role="button" >
+            <i class="fab fa-linkedin-in"></i >
+          </a>
+          <!-- Linkedin -->
+          <!-- Github -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/" role="button" >
+            <i class="fab fa-github"></i >
+          </a>
+          <!-- Github -->
+        </section>
+        <!-- Section: Social media -->
+              
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+        
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example21" class="form-control" />
+                    <label class="form-label" for="form5Example21">Email address</label>
+                </div>
+            </div>
+            <!--Grid column-->
+        
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="button" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+        
+      <!-- About Us -->
+      <section class="mb-4">
+        <div class="about_text">
+          <h4>About Champs Sports</h4>
+          Champs Sports is the best seller of online sports accessories provider in Pakistan. Champs Sports sale sports shoes such as, Football  Shoes, Basketball Shoes, Cricket Shoes, etc etc . Champs Sports provide a easy way to buy sports product online in Pakistan you just visit and shop sports accessories in Pakistan with free delivery service all over in Pakistan.
+        </div>
+      </section>
+      <!--About Us-->
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->  
+    </body>
+</html>
