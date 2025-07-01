@@ -7,6 +7,7 @@ A responsive front-end prototype for an e-commerce website named **Champs Sports
 - **Product Page**: Detailed product view with description, images, and add-to-cart functionality.
 - **Cart Page**: Cart summary with editable quantities and total pricing.
 - **Login Page**: Social login buttons and a traditional login form.
+- **Signup Page**: Social Signup buttons and a traditional Signup form.
 - **Reviews Page**: User reviews with star ratings and comment submissions.
 
 ## 🔧 Technologies Used
@@ -25,12 +26,13 @@ A responsive front-end prototype for an e-commerce website named **Champs Sports
 ├── home.html
 ├── home.css
 ├── loginpage.html
+├── signuppage.html
 ├── loginpage.css
 ├── Product.html
 ├── Product.css
 ├── Reviews.html
 ├── Reviews.css
-└── Images/ (not included)
+└── Images/
 ```
 
 ## 🧰 Features
@@ -55,6 +57,3 @@ Images are referenced in the HTML files under the `/Images` directory. Make sure
 
 For questions or contributions, feel free to open an issue or pull request on GitHub.
 
----
-
-© 2025 Champs Sports. All rights reserved.
